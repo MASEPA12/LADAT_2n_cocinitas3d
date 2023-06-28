@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3038446840740560066}
   - component: {fileID: 738261810282879278}
   m_Layer: 0
-  m_Name: orange2
+  m_Name: orange3
   m_TagString: recollectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cb25c0aba905cb44ebf78ef731c307c7, type: 2}
+  - {fileID: 2100000, guid: af8d59b2340394c4f8ce9b015a0a7baf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

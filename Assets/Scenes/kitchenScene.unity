@@ -431,6 +431,51 @@ Transform:
   m_Father: {fileID: 2021268597}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &818214769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 818214771}
+  - component: {fileID: 818214770}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &818214770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818214769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cc579fd12465a4a9e72dc9effbb36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inTheBag: []
+--- !u!4 &818214771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818214769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.068707585, y: 1.7313614, z: 0.39138448}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &824733015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,12 +1073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e2d8499689d6d4cb25e90d8ad658ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inTheBag:
-  - {fileID: 7659248910788545010, guid: 04bfe62d340317b46a44b0fa09b0c6ba, type: 3}
-  - {fileID: 1821841765929298708, guid: c8bef7449fab39f45934d0f36a81306c, type: 3}
-  - {fileID: 1821841765929298708, guid: c8bef7449fab39f45934d0f36a81306c, type: 3}
-  - {fileID: 1821841765929298708, guid: c8bef7449fab39f45934d0f36a81306c, type: 3}
-  - {fileID: 1821841765929298708, guid: c8bef7449fab39f45934d0f36a81306c, type: 3}
+  gameManagerScript: {fileID: 0}
   placesOfTheStants:
   - {fileID: 1368208926}
   - {fileID: 824733015}
@@ -1041,6 +1081,9 @@ MonoBehaviour:
   - {fileID: 1724010635}
   - {fileID: 645970487}
   - {fileID: 551654274}
+  isInTheCenterOfTheTable: []
+  isSomethingOnTheTable: 0
+  initialPos: {x: 0, y: 0, z: 0}
 --- !u!4 &2115612482
 Transform:
   m_ObjectHideFlags: 0
